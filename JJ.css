@@ -1,0 +1,15 @@
+.text-stroke {
+    -webkit-text-stroke: 1px #000000;
+    color: transparent;
+}
+
+.reveal-up {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-up.active {
+    opacity: 1;
+    transform: translateY(0);
+}
